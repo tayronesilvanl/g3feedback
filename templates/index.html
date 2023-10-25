@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Satisfação</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Pesquisa de Satisfação G3 Thomas vira logo diretor disso</h1>
+        <form method="POST" action="/submit">
+            <div class="form-group">
+                <label for="resposta_atendimento">Como você avalia o atendimento prestado pela nossa equipe?</label>
+                <select class="form-control" id="resposta_atendimento" name="resposta_atendimento">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="resposta_veiculo">Como você avalia o veículo utilizado na prestação do serviço?</label>
+                <select class="form-control" id="resposta_veiculo" name="resposta_veiculo">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <!-- Opções de avaliação -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="resposta_conducao">Como você avalia a condução do motorista da sua linha?</label>
+                <select class="form-control" id="resposta_conducao" name="resposta_conducao">
+                    <option value="0">0</option>
+                    <!-- Opções de avaliação -->
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="resposta_satisfacao">De 0 a 10, quão satisfeito está com nossos serviços?</label>
+                <input type="number" class="form-control" id="resposta_satisfacao" name="resposta_satisfacao" min="0" max="10">
+            </div>
+            <div class="form-group">
+                <label for="resposta_comentarios">Comentários:</label>
+                <textarea class="form-control" id="resposta_comentarios" name="resposta_comentarios" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
