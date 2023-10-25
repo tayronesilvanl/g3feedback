@@ -22,7 +22,7 @@ class Feedback(db.Model):
     comentarios = db.Column(db.Text)
 
 # Rota principal para exibir o formulário
-@app.route('/')
+@app.route('/template)
 def index():
     return render_template('index.html')
 
