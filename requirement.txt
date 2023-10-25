@@ -101,3 +101,8 @@ webencodings==0.5.1
 Werkzeug==2.2.3
 wsproto==1.2.0
 XlsxWriter==3.1.2
+Flask
+pandas
+Flask-SQLAlchemy
+psycopg2
+
